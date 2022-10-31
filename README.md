@@ -47,13 +47,15 @@ Second arg: $~~~$ Name of image including file type
 Third arg: $~~~~$ Using the above function to convert "result.png" into bytes.
 - exa.) img = convert_image_to_send(file_path)
 
+### Request example
+All variables need to be in byte format.
+```
+socket.send_multipart([user_input,image_path,img])
 
 ```
-#string is encoded during 
-socket.send_multipart([str.encode(user_input),str.encode(image_path),img])
-
-```
-
+### Recieve example
+A single result will be return based on expected result.
+`socket.recv()`
 
 
 
