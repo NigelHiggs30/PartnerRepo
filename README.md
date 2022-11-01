@@ -57,6 +57,7 @@ socket.send_multipart([user_input,image_path,img])
 A single result will be return based on expected result.
 `socket.recv()`
 
+<img src="https://github.com/NigelHiggs30/PartnerRepo/blob/main/Photos/UML%20Diagram.png">
 
 
 
